@@ -397,16 +397,13 @@ div p {
 
     .position_absolute {
         position: absolute;
+        top: 50%;
+        left: 0;
+        transform: translateY(-50%);
     }
 
     .w_50 {
-        width: 50%;
-    }
-
-    .image {
-        top: 50%;
-        left: -25%;
-        transform: translateY(-50%);
+        width: 40%;
     }
 
     .p_relative {
